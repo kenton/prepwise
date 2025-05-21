@@ -1,8 +1,7 @@
 import React, {ReactNode} from 'react'
+import AuthForm from "@/components/AuthForm";
 
 const SignIn = () => {
-  return (
-      <div>Sign In</div>
-  )
+  return <AuthForm type="sign-in"/>
 }
 export default SignIn
